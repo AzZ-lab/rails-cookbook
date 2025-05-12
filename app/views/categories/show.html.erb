@@ -3,3 +3,6 @@
 <p>Category ID: <%= @category.id %></p>
 
 <%= link_to "Back to All Categories", categories_path %>
+
+<%= link_to "Add Recipe to This Category", new_category_bookmark_path(@category), class: "btn" %>
+
