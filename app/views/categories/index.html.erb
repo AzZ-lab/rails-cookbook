@@ -1,4 +1,11 @@
+<div class="banner" style="background-image: url('<%= image_path "banner.jpg" %>')">
+  <div>
+    <h1>CookBook</h1>
+    <h3>Save your favourite recipes</h3>
+  </div>
+</div>
 
+<%= link_to "Add New Category", new_category_path %>
 
 <ul>
   <% @categories.each do |category| %>
@@ -6,4 +13,4 @@
   <% end %>
 </ul>
 
-<%= link_to "Add New Category", new_category_path %>
+
