@@ -3,3 +3,18 @@
 
 @import "config/navbar";
 @import "config/banner";
+
+.container {
+  margin: 0 auto;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.info-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}

@@ -5,6 +5,15 @@
   </div>
 </div>
 
+<div class="container w-75">
+  <div class="info-top">
+    <h2>List of Categories</h2>
+    <%= link_to 'New category', new_category_path, class: "btn btn-warning" %>
+  </div>
+</div>
+
+
+
 <%= link_to "Add New Category", new_category_path %>
 
 <ul>
@@ -12,5 +21,3 @@
     <li><%= link_to category.name, category_path(category) %></li>
   <% end %>
 </ul>
-
-
